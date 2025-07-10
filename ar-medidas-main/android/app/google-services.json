@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "894998918101",
+    "project_id": "ar-medidas",
+    "storage_bucket": "ar-medidas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894998918101:android:ce47e84df5140a37ff435c",
+        "android_client_info": {
+          "package_name": "com.example.ar_medidas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWmcTfX6cMQ4NYQBDlpzBd5G2E047lpuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

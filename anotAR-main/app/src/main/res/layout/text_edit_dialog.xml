@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white"
+    android:minWidth="320dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_edit"
+            android:layout_marginEnd="12dp"
+            android:tint="#2196F3" />
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Gerenciar Texto"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333" />
+
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Text Input -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o texto:"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite aqui o texto..."
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textColorHint="#999999"
+        android:inputType="text"
+        android:maxLines="3"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Buttons Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:paddingTop="8dp">
+
+        <!-- Delete Button (only for edit mode) -->
+
+        <!-- Cancel Button -->
+
+        <!-- Save Button -->
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/holo_blue_dark"
+            android:clickable="true"
+            android:focusable="true"
+            android:minWidth="100dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="Salvar"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:focusable="true"
+            android:minWidth="100dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="Cancelar"
+            android:textColor="#666666"
+            android:elevation="12dp"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/holo_red_dark"
+            android:clickable="true"
+            android:focusable="true"
+            android:minWidth="100dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="Excluir"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout> 
