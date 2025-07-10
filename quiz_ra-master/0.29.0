@@ -1,0 +1,16 @@
+Collecting flet
+  Downloading flet-0.28.3-py3-none-any.whl.metadata (3.6 kB)
+Requirement already satisfied: httpx in c:\users\ezequiel\appdata\local\programs\python\python312\lib\site-packages (from flet) (0.28.1)
+Requirement already satisfied: oauthlib<4.0.0,>=3.2.2 in c:\users\ezequiel\appdata\local\programs\python\python312\lib\site-packages (from flet) (3.2.2)
+Requirement already satisfied: repath<0.10.0,>=0.9.0 in c:\users\ezequiel\appdata\local\programs\python\python312\lib\site-packages (from flet) (0.9.0)
+Requirement already satisfied: six>=1.9.0 in c:\users\ezequiel\appdata\local\programs\python\python312\lib\site-packages (from repath<0.10.0,>=0.9.0->flet) (1.17.0)
+Requirement already satisfied: anyio in c:\users\ezequiel\appdata\local\programs\python\python312\lib\site-packages (from httpx->flet) (4.9.0)
+Requirement already satisfied: certifi in c:\users\ezequiel\appdata\local\programs\python\python312\lib\site-packages (from httpx->flet) (2025.4.26)
+Requirement already satisfied: httpcore==1.* in c:\users\ezequiel\appdata\local\programs\python\python312\lib\site-packages (from httpx->flet) (1.0.9)
+Requirement already satisfied: idna in c:\users\ezequiel\appdata\local\programs\python\python312\lib\site-packages (from httpx->flet) (3.10)
+Requirement already satisfied: h11>=0.16 in c:\users\ezequiel\appdata\local\programs\python\python312\lib\site-packages (from httpcore==1.*->httpx->flet) (0.16.0)
+Requirement already satisfied: sniffio>=1.1 in c:\users\ezequiel\appdata\local\programs\python\python312\lib\site-packages (from anyio->httpx->flet) (1.3.1)
+Requirement already satisfied: typing_extensions>=4.5 in c:\users\ezequiel\appdata\local\programs\python\python312\lib\site-packages (from anyio->httpx->flet) (4.14.0)
+Downloading flet-0.28.3-py3-none-any.whl (463 kB)
+Installing collected packages: flet
+Successfully installed flet-0.28.3
