@@ -1,0 +1,14 @@
+# Blender 3.6.2 MTL File: 'Ferarri 550 Maranello Wheel.blend'
+# www.blender.org
+
+newmtl wheel
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\Users\yanng\Documentos\Visual Studio\Projetos Faculdade\MobileRA\flutterapp\lib\assets\3d_models\texturas/wheel_basecolor.png
+map_Ns C:\Users\yanng\Documentos\Visual Studio\Projetos Faculdade\MobileRA\flutterapp\lib\assets\3d_models\texturas/wheel_roughness.png
+map_refl C:\Users\yanng\Documentos\Visual Studio\Projetos Faculdade\MobileRA\flutterapp\lib\assets\3d_models\texturas/wheel_metallic.png
+map_Bump -bm 1.000000 C:\Users\yanng\Documentos\Visual Studio\Projetos Faculdade\MobileRA\flutterapp\lib\assets\3d_models\texturas/wheel_normal.png
