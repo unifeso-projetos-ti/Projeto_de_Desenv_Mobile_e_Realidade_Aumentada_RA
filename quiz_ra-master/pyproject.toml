@@ -1,9 +1,0 @@
-[project]
-dependencies = [
-  "flet>=0.28",
-  "opencv-python==4.10.0.84",
-  "numpy"
-]
-
-[tool.flet.android.permission]
-"android.permission.CAMERA" = true

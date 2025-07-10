@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "261992274173",
+    "project_id": "connectfeso",
+    "storage_bucket": "connectfeso.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261992274173:android:75d44665a95fc4c06f4694",
+        "android_client_info": {
+          "package_name": "com.example.connectfeso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261992274173-n7nna677n7k81avjsp1bg73k80n0gvks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.connectfeso",
+            "certificate_hash": "6ab0a9f6c83ca54686579ce2c1c79562b91c5871"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfrzsozbSHUSP1ZTJY2D_8T78IHTaqkc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
